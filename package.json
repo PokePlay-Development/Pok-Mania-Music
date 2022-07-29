@@ -3,24 +3,6 @@
   "version": "2.0.0",
   "description": "Advanced Discord Music Bot.",
   "main": "index.js",
-  "dependencies": {
-    "@discordjs/builders": "^0.9.0",
-    "@discordjs/opus": "^0.8.0",
-    "@discordjs/voice": "^0.7.5",
-    "@distube/soundcloud": "^1.0.0",
-    "@distube/spotify": "^1.0.0",
-    "colors": "^1.4.0",
-    "cpu-stat": "^2.0.1",
-    "discord.js": "^13.3.1",
-    "distube": "^3.0.3",
-    "ffmpeg-static": "^4.4.0",
-    "http": "^0.0.1-security",
-    "libsodium-wrappers": "^0.7.9",
-    "memorystore": "^1.6.6",
-    "ms": "^2.1.3",
-    "node-fetch": "^2.6.7",
-    "os": "^0.1.2"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -33,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/PokePlay-Development/Pok-Mania-Music/issues"
   },
-  "homepage": "https://github.com/PokePlay-Development/Pok-Mania-Music#readme"
+  "homepage": "https://github.com/PokePlay-Development/Pok-Mania-Music#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/voice": "^0.11.0",
+    "colors": "^1.4.0",
+    "discord.js": "^13.6.0",
+    "distube": "^4.0.3",
+    "moment": "^2.29.4",
+    "node": "^18.7.0",
+    "node-fetch": "^2.6.7",
+    "os": "^0.1.2"
+  }
 }

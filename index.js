@@ -53,7 +53,7 @@ client.aliases = new Discord.Collection();
         require(`./handlers/${h}`)(client);
     })
 //Start the Bot
-client.login(config.token)
+client.login(config.token || process.env.token)
 
 
 
