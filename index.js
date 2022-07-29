@@ -42,7 +42,6 @@ const client = new Discord.Client({
 });
 //Define some Global Collections
 client.commands = new Discord.Collection();
-client._owners = new Array("988684837659488306", "821240924653748234", "681152993361788928")
 client.cooldowns = new Discord.Collection();
 client.slashCommands = new Discord.Collection();
 client.aliases = new Discord.Collection();
@@ -53,7 +52,7 @@ client.aliases = new Discord.Collection();
         require(`./handlers/${h}`)(client);
     })
 //Start the Bot
-client.login(config.token || process.env.token)
+client.login(config.token)
 
 
 
