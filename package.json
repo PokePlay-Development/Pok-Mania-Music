@@ -30,7 +30,7 @@
     "colors": "^1.4.0",
     "cpu-stat": "^2.0.1",
     "discord.js": "^13.3.1",
-    "distube": "^3.0.3",
+    "distube": "^2.8.18",
     "ffmpeg-static": "^4.4.0",
     "http": "^0.0.1-security",
     "libsodium-wrappers": "^0.7.9",
